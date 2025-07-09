@@ -35,7 +35,11 @@ export const data = [
         name:"Contacts",
         style:{
             backgroundColor:'#FA9021',
-            borderRadius:"6px"
+            borderRadius:"6px",
+            width: '131px',
+            textAlign: 'center',
+            borderBottom:'none',
+            // height:'41px',
         },
         element:<Contact/>
     },

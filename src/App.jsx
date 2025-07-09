@@ -6,7 +6,6 @@ import {
 import "./App.css"
 import { NavBar } from "./components/NavBar/NavBar";
 import { data } from "./data.jsx";
-import { Logo } from "./Logo/Logo.jsx";
 
 
 

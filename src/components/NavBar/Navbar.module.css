@@ -9,10 +9,16 @@
 }
 .link {
   text-decoration: none;
-   position: relative;
+  position: relative;
   padding: 5px 0;
   font-weight: 500;
+  z-index: 1;
 }
+
+/*Адаптивка*/
+
+
+
 .link::after {
   content: "";
   position: absolute;
@@ -37,9 +43,37 @@
   padding-left: 20px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+    
 .menu {
   /* border: 1px solid; */
   display: flex;
   width: 100%;
   justify-content: space-around;
 }
+
+/*Анимация Лого*/
+.LogoAnim{
+  background:linear-gradient(45deg,
+    #ff0057, #ffae00, #fffb00,
+    #00ff2b, #00c8ff, #7a00ff,
+    #ff0057);
+  background-size:600% 600%;
+
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+
+  
+  animation:wave 6s ease-in-out infinite;
+  display:inline-block;       
+}
+@keyframes wave{
+  0%   {background-position:   0% 50%;}
+  50%  {background-position: 100% 50%;}
+  100% {background-position:   0% 50%;}
+}
+
+.LogoAnim:nth-child(1){animation-delay:0s;}
+.LogoAnim:nth-child(2){animation-delay:0.7s;}
+.LogoAnim:nth-child(3){animation-delay:1.4s;}
+.LogoAnim:nth-child(4){animation-delay:2.1s;}

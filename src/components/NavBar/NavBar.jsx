@@ -1,6 +1,5 @@
 import React from "react";
 import css from "./NavBar.module.css";
-
 import { Link } from "react-router-dom";
 import { data } from "../../data.jsx";
 
@@ -8,7 +7,10 @@ export const NavBar = () => {
   return (
     <div className={css.NavBar}>
         <div className={css.Logo}>
-            logo
+            <span className={css.LogoAnim}>L</span>
+            <span className={css.LogoAnim}>O</span>
+            <span className={css.LogoAnim}>G</span>
+            <span className={css.LogoAnim}>O</span>
         </div>
       <div className={css.menu}>
         {data.map((link, id) => {

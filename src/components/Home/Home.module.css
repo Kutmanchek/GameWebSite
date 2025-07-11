@@ -1,0 +1,372 @@
+/*Биринчи блок*/
+body {
+    color: #fff;
+}
+
+.BlockOne {
+    display: flex;
+    position: relative;
+}
+
+.TextOne {
+    width: 527px;
+    height: 512px;
+    overflow: hidden;
+    padding: 50px 130px;
+}
+
+.BgImg {
+    display: flex;
+    margin-left: 33px;
+    position: absolute;
+    margin-top: -100px;
+    z-index: -1;
+}
+
+.BtnText {
+    transition:all 0.3s ease-in-out;
+    width:195px;
+    cursor:pointer;
+    color:#fff;
+    font-size:20px;
+    height:53px; 
+    border:none;
+    outline:none; 
+    text-align:center; 
+    background-color:#E87D0E;;
+    font-size: 20px;
+}
+
+.BtnText:hover{
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    font-size: 16px;
+}
+
+.BtnText:hover {
+    border-radius: 40px;
+    color: black;
+}
+
+/**/
+
+/*Экнчи Блок*/
+
+.BlockTwo {
+    padding: 250px 130px;
+}
+
+.TextTwo {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.Btn {
+    width: 139px;
+    height: 57px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #1C140F;
+    color: #fff;
+    margin-left: 350px;
+    cursor: pointer;
+}
+
+.GameImg {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 50px 0;
+    width: 1065px;
+}
+
+/*Учунчу блок*/
+
+.SingleText {
+    padding: -50px 100px;
+    margin-left: 250px;
+    line-height: 187%;
+    margin-top: -150px;
+}
+
+.BlockThree {
+    padding: 50px 130px;
+}
+
+/*Тортунчу Блок*/
+
+.BlockFour {
+    padding: 50px 130px;
+    background: url(../Assets/BgFour.png);
+    background-attachment: fixed;
+}
+
+.Pk>div>.Info {
+    font-size: 16px;
+    width: 192px;
+    height: 30px;
+    line-height: 187%;
+    display: flex;
+    margin-left: -55px;
+    margin-top: 10px;
+}
+
+.Pk>div>p {
+    font-size: 16px;
+    width: 192px;
+    height: 30px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: -15px;
+}
+
+.Vr>p {
+    display: flex;
+    position: absolute;
+    margin-top: -55px;
+}
+
+.Vr>span>img {
+    display: flex;
+    margin-top: 40px;
+}
+
+.Pk>div>img {
+    width: 65px;
+    height: 65px;
+}
+
+.Pk>div>span>img {
+    display: flex;
+    margin-left: 30px;
+}
+
+.TextThree {
+    width: 826px;
+    height: 197px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.Pk {
+    padding: 50px 130px;
+    flex-wrap: wrap;
+    width: 1045px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 25px 25px 25px 25px;
+    gap: 250px;
+}
+
+/*Бешинчи Блок*/
+.BlockFive {
+    width: 1170px;
+    height: 678px;
+}
+
+.TextFour {
+    width: 497px;
+    height: 128px;
+    text-align: center;
+}
+
+.TextFour h1 {
+    width: 305px;
+    height: 56px;
+    margin-left: 500px;
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+.TextFour>span {
+    width: 497px;
+    height: 57px;
+    margin-left: 450px;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 187%;
+    display: flex;
+}
+
+.ClubImg {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    gap: 170px;
+}
+
+
+
+.ClubImg2 {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.SeeAll {
+    width: 139px;
+    height: 57px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: #fff;
+    margin-left: 460px;
+    cursor: pointer;
+    background-color: #1C140F;
+}
+
+/*Алтынчы Блок*/
+.BlockSix {
+    width: 1170px;
+    height: 392px;
+    padding: 50px 100px;
+}
+
+.Registr {
+    padding: 50px 50px;
+    width: 1170px;
+    height: 189px;
+    margin-top: 80px;
+    background-color: #1C140F;
+    border-radius: 15px;
+    display: flex;
+}
+
+.TextSeven {
+    width: 636px;
+    height: 107px;
+}
+
+.Registr input {
+    outline: none;
+    border: none;
+    width: 385.68px;
+    height: 48px;
+    padding-right: 130px;
+    padding-left: 30px;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.Registr button {
+    outline: none;
+    border: none;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    width: 105px;
+    height: 37px;
+    border-radius: 8px;
+    margin-left: -120px;
+    margin-top: 26px;
+    background-color: #DC7000;
+    color: #fff;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.Sign {
+    display: flex;
+}
+
+/*Футер*/
+
+.Footer {
+    display: flex;
+    width: 1351px;
+    height: 376px;
+    background-color: #070707;
+    margin-top: 200px;
+    padding: 50px 100px;
+}
+
+.LogoAnim {
+    background: linear-gradient(45deg,
+            #ff0057, #ffae00, #fffb00,
+            #00ff2b, #00c8ff, #7a00ff,
+            #ff0057);
+    background-size: 600% 600%;
+    line-height: 153.5%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: 1000;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    animation: wave 6s ease-in-out infinite;
+    display: inline-block;
+}
+
+@keyframes wave {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.LogoAnim:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.LogoAnim:nth-child(2) {
+    animation-delay: 0.7s;
+}
+
+.LogoAnim:nth-child(3) {
+    animation-delay: 1.4s;
+}
+
+.LogoAnim:nth-child(4) {
+    animation-delay: 2.1s;
+}
+
+.SecFot {
+    margin-left: 60px;
+}
+
+.SecFot p {
+    margin-top: 15px;
+    opacity: 0.7;
+}
+
+.SecFot p:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.ThrFot {
+    margin-left: 140px;
+}
+
+.FrFot {
+    width: 184px;
+    height: 34px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 130px;
+    margin-left: 30px;
+}
+
+.FrFot img {
+    cursor: pointer;
+}
+
+.FrFot img:hover {
+    transform: scale(1.2);
+    transition: 0.1s ease-in-out;
+}
+
+/*Адаптивка*/

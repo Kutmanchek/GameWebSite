@@ -24,28 +24,23 @@ body {
 }
 
 .BtnText {
-    transition:all 0.3s ease-in-out;
-    width:195px;
-    cursor:pointer;
-    color:#fff;
-    font-size:20px;
-    height:53px; 
-    border:none;
-    outline:none; 
-    text-align:center; 
-    background-color:#E87D0E;;
+    transition: all 0.3s ease-in-out;
+    width: 195px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    height: 53px;
+    border: none;
+    outline: none;
+    text-align: center; 
+    margin-top: -20px;
+    background-color: #E87D0E;
     font-size: 20px;
 }
 
-.BtnText:hover{
-    transition: all 0.3s ease-in-out;
-    color: #fff;
-    font-size: 16px;
-}
-
 .BtnText:hover {
+    transition: all 0.3s ease-in-out;
     border-radius: 40px;
-    color: black;
 }
 
 /**/
@@ -100,66 +95,61 @@ body {
     padding: 50px 130px;
     background: url(../Assets/BgFour.png);
     background-attachment: fixed;
+    height: 800px;
 }
 
-.Pk>div>.Info {
-    font-size: 16px;
-    width: 192px;
-    height: 30px;
-    line-height: 187%;
-    display: flex;
-    margin-left: -55px;
-    margin-top: 10px;
-}
-
-.Pk>div>p {
-    font-size: 16px;
-    width: 192px;
-    height: 30px;
-    display: flex;
-    margin-top: 20px;
-    margin-left: -15px;
-}
-
-.Vr>p {
-    display: flex;
-    position: absolute;
-    margin-top: -55px;
-}
-
-.Vr>span>img {
-    display: flex;
-    margin-top: 40px;
-}
-
-.Pk>div>img {
-    width: 65px;
-    height: 65px;
-}
-
-.Pk>div>span>img {
-    display: flex;
-    margin-left: 30px;
+.Pk {
+    width: 1045px;
+    height: 400px;
 }
 
 .TextThree {
     width: 826px;
     height: 197px;
+    text-align: center;
+}
+
+.TextThree  h1 {
+    width: 826px;
+    height: 112px;
+    font-weight: bold;
+    line-height: 187%;
+    font-size: 30px;
     display: flex;
-    flex-direction: column;
-    margin-left: 100px;
-    margin-top: 50px;
+    margin-left: 180px;
+}
+
+.TextThree span {
+    width: 820px;
+    height: 60px;
+    line-height: 187%;
+    display: flex;
+    margin-left: 180px;
+    font-size: 16px;
 }
 
 .Pk {
-    padding: 50px 130px;
-    flex-wrap: wrap;
     width: 1045px;
     height: 400px;
     display: grid;
-    grid-template-columns: 25px 25px 25px 25px;
-    gap: 250px;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 50px 0;
+    gap: 30px;
+    margin-left: -25px;
 }
+
+.Pk p {
+    margin-top: 30px;
+}
+
+.Pk div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
 
 /*Бешинчи Блок*/
 .BlockFive {
@@ -181,28 +171,32 @@ body {
     font-size: 30px;
 }
 
-.TextFour>span {
+.TextFour >  span {
     width: 497px;
     height: 57px;
     margin-left: 450px;
     margin-top: 20px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 187%;
     display: flex;
+    font-size: 14px ;
 }
 
 .ClubImg {
     display: grid;
-    grid-template-columns: 25% 25% 25%;
-    gap: 170px;
+    grid-template-columns: 35% 35% 33%;
+    gap: 50px;
+    padding: 50px 0;
 }
 
 
 
 .ClubImg2 {
-    display: flex;
-    margin-top: 20px;
+    display:grid;
+    grid-template-columns: 35% 57% 65%;
+    margin-top: -26px;
     gap: 20px;
+    width: 600px
 }
 
 .SeeAll {
@@ -213,9 +207,9 @@ body {
     border: none;
     outline: none;
     color: #fff;
-    margin-left: 460px;
+    margin-left: 410px;
     cursor: pointer;
-    background-color: #1C140F;
+    backdrop-filter: blur(15px) #bbb;
 }
 
 /*Алтынчы Блок*/
@@ -251,6 +245,7 @@ body {
     position: relative;
     margin-top: 20px;
     font-size: 13px;
+    color: black;
 }
 
 .Registr button {
@@ -369,4 +364,9 @@ body {
     transition: 0.1s ease-in-out;
 }
 
+/*Кошумча код*/
+
+body {
+    user-select: none;
+}
 /*Адаптивка*/

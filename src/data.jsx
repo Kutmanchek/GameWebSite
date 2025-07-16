@@ -4,6 +4,7 @@ import { Home } from "./components/Home/Home"
 import { News } from "./components/News/News"
 import { Portfolio } from "./components/Portfolio/Portfolio"
 
+
 export const data = [
     {
         route:'/',
@@ -39,7 +40,6 @@ export const data = [
             width: '131px',
             textAlign: 'center',
             borderBottom:'none',
-            // height:'41px',
         },
         element:<Contact/>
     },

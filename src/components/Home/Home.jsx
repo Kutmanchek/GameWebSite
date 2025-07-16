@@ -33,7 +33,7 @@ export const Home = () => {
         <div className={style.TextOne}>
             <span style={{color:'#E87D0E',width:"273px",height:'31px',borderBottom:'30px',display:'flex'}}>Proved By prodesigner</span>
             <h1 style={{width:'479px',height:'234px',fontSize:'50px',fontWeight:'bold',color:'#fff'}}>Work that we produce for our clients</h1>
-            <span style={{width:'527px',height:'101px',marginTop:'-30px',display:'flex',fontSize:"16px",color:'#fff'}}>Lorem Ipsum is simply dummy text of the printing and <br /> typesetting industry. Lorem Ipsum has been the industry's <br /> standard.</span>
+            <span style={{marginBottom:'30px',width:'527px',height:'101px',lineHeight:'187%',marginTop:'30px',display:'flex',fontSize:"16px",color:'#fff'}}>Lorem Ipsum is simply dummy text of the printing and <br /> typesetting industry. Lorem Ipsum has been the industry's <br /> standard.</span>
             <button className={style.BtnText}>Get more details</button>
         </div>
         <div>
@@ -42,48 +42,48 @@ export const Home = () => {
       </div>
       <div className={style.BlockTwo}>
         <div className={style.TextTwo}>
-          <h1 style={{width:'404px',height:'58px',color:'#fff'}}>Currently Trending Games</h1>
+          <h1 style={{width:'404px',height:'58px',color:'#fff',fontSize:'31px',fontWeight:'bold'}}>Currently Trending Games</h1>
           <button className={style.Btn}>SEE ALL</button>
         </div>
         <div className={style.GameImg}>
           <div>
             <img style={{width:'240px'}} src={Game1} alt="" />
             <br />
-            <span style={{textAlign:'center',width:'170px',height:'41px',padding:'35px',color:'#fff',fontSize:'22px'}}> <img className={style.fire} src={fire1} alt="" /> 40 Followers</span>
+            <span style={{textAlign:'center',width:'170px',height:'41px',padding:'8px',marginLeft:'40px',display:'flex',color:'#fff',fontSize:'22px'}}> <img className={style.fire} src={fire1} alt="" /> 40 Followers</span>
           </div>
           <div>
             <img style={{width:'240px'}} src={Game2} alt="" />
              <br />
-            <span style={{textAlign:'center',width:'170px',height:'41px',padding:'35px',color:'#fff',fontSize:'22px'}}> <img src={fire1}/> 40 Followers</span>
+            <span style={{textAlign:'center',width:'170px',height:'41px',padding:'8px',display:'flex',color:'#fff',marginLeft:'40px',fontSize:'22px'}}> <img src={fire1}/> 40 Followers</span>
           </div>
           <div>
             <img style={{width:'240px'}} src={Game3} alt="" />
             <br />
-            <span style={{textAlign:'center',width:'170px',height:'41px',padding:'35px',color:'#fff',fontSize:'22px'}}> <img src={fire1}/> 40 Followers</span>
+            <span style={{textAlign:'center',width:'170px',height:'41px',padding:'8px',display:'flex',marginLeft:'40px',color:'#fff',fontSize:'22px'}}> <img src={fire1}/> 40 Followers</span>
           </div>
           <div>
             <img style={{width:'240px'}} src={Game4} alt="" />
             <br />
-            <span style={{textAlign:'center',width:'170px',height:'41px',padding:'35px',color:'#fff',fontSize:'22px'}}> <img src={fire1}/> 40 Followers</span>
+            <span style={{textAlign:'center',width:'170px',height:'41px',padding:'8px',display:'flex',marginLeft:'40px',color:'#fff',fontSize:'22px'}}> <img src={fire1}/> 40 Followers</span>
           </div>
         </div>
       </div>
-      <h1 style={{fontSize:'36px',width:'826px',height:'132px',textAlign:'center'}} className={style.SingleText}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+      <h1 style={{fontSize:'36px',width:'826px',height:'132px',textAlign:'center',fontWeight:'bold'}} className={style.SingleText}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
       <div className={style.BlockThree}>
-        <h1 style={{width:'209px',height:'40px',lineHeight:'187%'}}>Lorem Ipsum</h1>
+        <h1 style={{width:'209px',height:'40px',lineHeight:'187%',fontSize:'30px',fontWeight:'bold'}}>Lorem Ipsum</h1>
         <span style={{width:'545px',height:'101px',lineHeight:'187%',display:'flex',fontSize:'16px',paddingTop:'20px'}}>Lorem Ipsum is simply dummy text of the printing and typesetting <br /> industry. Lorem Ipsum has been the industry's standard dummy text <br /> ever since the 1500s,</span>
         <img src={Dot} style={{display:'flex',marginLeft:'750px',position:'absolute',zIndex:'-1'}}/>
         <img src={Chel}  style={{padding:'65px 0'}}/>
       </div>
       <div className={style.BlockFour}>
         <div className={style.TextThree}>
-          <h1 style={{width:'826px',height:'112px',lineHeight:'187%',textAlign:'center'}}>Lorem Ipsum is simply dummy text of the printing <br /> and typesetting industry.</h1>
-          <span style={{width:'820px',textAlign:'center',height:'60px',lineHeight:'187%'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the <br /> industry's standard dummy text ever since the 1500s,</span>
+          <h1>Lorem Ipsum is simply dummy text of the printing <br /> and typesetting industry.</h1>
+          <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the <br /> industry's standard dummy text ever since the 1500s,</span>
         </div>
         <div className={style.Pk}>
           <div>
             <img src={tel} />
-            <p className={style.Info}  style={{width:'220px'}}>Mobile Game Development</p>
+            <p className={style.Info}>Mobile Game Development</p>
             <br />
             <span> <img src={strel} /> </span>
           </div>
@@ -101,18 +101,18 @@ export const Home = () => {
           </div>
           <div className={style.Vr}>
             <img src={vr} />
-            <p style={{display:'flex',marginTop:'16px'}}>AR/VR Solutions</p>
+            <p style={{display:'flex',marginTop:'30px'}}>AR/VR Solutions</p>
             <br />
             <span> <img  src={strel} /> </span>
           </div>
-          <div style={{display:'flex',flexDirection:'column',marginLeft:'280px'}}>
-            <img style={{marginTop:'-190px',display:'flex'}} src={Cub} />
+          <div style={{marginTop:'30px',position:'relative',left:'290px'}}>
+            <img src={Cub} />
             <p>AR/ VR design</p>
             <br />
             <span> <img src={strel} /> </span>
           </div>
-          <div style={{display:'flex',flexDirection:'column',marginLeft:'280px'}}>
-            <img style={{marginTop:'-190px',display:'flex'}} src={geo} />
+          <div style={{marginTop:'30px',position:'relative',left:'250px'}}>
+            <img src={geo} />
             <p>3D Modelings</p>
             <br />
             <span> <img src={strel} /> </span>
@@ -121,10 +121,10 @@ export const Home = () => {
       </div>
       <div className={style.BlockFive}>
         <div className={style.TextFour}>
-          <h1 style={{width:'305px',height:'56px',}}>Our Recent Projects</h1>
+          <h1 style={{width:'305px',height:'56px',fontWeight:'bold'}}>Our Recent Projects</h1>
           <span>Lorem Ipsum is simply dummy text of the printing and typesetting <br /> industry. </span>
         </div>
-        <div style={{padding:'0 130px'}}>
+        <div style={{padding:'30px 130px',marginLeft:'50px'}}>
           <div className={style.ClubImg}>
             <img src={Club1} />
             <img src={Club2}/>
@@ -140,7 +140,7 @@ export const Home = () => {
       </div>
       <div className={style.BlockSix}>
         <div className={style.TextSix}>
-          <h1 style={{width:'209px',height:'40px',lineHeight:'187%'}}>Lorem Ipsum</h1>
+          <h1 style={{width:'209px',height:'40px',lineHeight:'187%',fontWeight:'bold',fontSize:'30px'}}>Lorem Ipsum</h1>
           <span style={{fontSize:'16px',width:'547px',height:'57px',lineHeight:'187%',padding:'20px 0',display:'flex'}}>Lorem Ipsum is simply dummy text of the printing and typesetting <br /> industry. </span>
         </div>
         <div className={style.Registr}>
@@ -184,6 +184,6 @@ export const Home = () => {
       </div>
       <hr style={{marginTop:'-110px',opacity:'0.3'}}/>
       <span style={{lineHeight:'190.6%',display:'flex',marginLeft:'500px',marginTop:'40px'}}>Copyright ® 2025 prodesigner  <span className={style.LogoAnim} style={{marginTop:'-10px',marginLeft:'10px',marginRight:'10px'}}> ILGIZ </span>  All rights Rcerved</span>
-    </div>
-  )
+    </div>
+  )
 }

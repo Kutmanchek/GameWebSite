@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+header {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+.line {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 12.5rem;
+    background-color: #1C140F;
+    border-radius: 0.625rem;
+}
+
+/* Первый блок */
+.firstBlock {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    gap: 5.475rem;
+}
+
+/* Список */
+.list {
+    font-size: 0.875rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 0.3125rem;
+    
+}
+
+/* Второй блок */
+.secondBlock {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    gap: 5.475rem;
+}
+
+.secondBlockText {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    
+}
+.secondBlockText p {
+    margin-top: 0.625rem;
+}
+.buttonSecond {
+    width: 11.0625rem;
+    height: 3.125rem;
+    background-color: #DC7000;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+    margin-top: 1.5625rem;
+}
+
+/* Третий блок */
+.thirdBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    background-color: #1C140F;
+    width: 100%;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+.thirdBlock h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    width: 50%;
+    text-align: center;
+}
+.thirdBlock p {
+    width: 60%;
+    text-align: center;
+    
+}
+
+.FeedBack {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  
+}
+
+.card {
+    background-color: black;
+    border: 2px solid #DDDDDD; /* Оранжевая рамка */
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    color: white;
+    transition: 0.5s;
+  }
+
+.card:hover {
+    border-color: #F97316;
+    background-color: #121212;
+    box-shadow: 0 0 20px rgba(249, 115, 22, 0.2);
+}
+
+  .cardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+
+  .userInfo {
+    display: flex;
+    align-items: center;
+  }
+
+  .userInfo img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 12px;
+  }
+
+  .userDetails {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .userDetails strong {
+    font-size: 16px;
+  }
+
+  .userDetails span {
+    font-size: 14px;
+    color: #7A7A7A;
+  }
+
+  .rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 15px;
+  }
+
+  .rating i {
+    color: #F97316;
+  }
+
+  .comment {
+    font-size: 14.5px;
+    line-height: 1.6;
+    color: #D1D1D1;
+  }
+
+
